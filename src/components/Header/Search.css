@@ -1,0 +1,17 @@
+.search {
+    width: 230px;
+    margin-right: 40px;
+}
+
+
+.srcInput {
+    padding: 0;
+    width: 220px;
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: rgb(243, 243, 243);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+}

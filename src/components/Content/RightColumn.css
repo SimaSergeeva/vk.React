@@ -1,0 +1,305 @@
+.right {
+    margin-top: 15px;
+}
+
+.info_user {
+    width: 510px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.header_info_user {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    height: 55px;
+    margin: 0px 20px;
+}
+
+.header_name-activ {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.user-name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.last-activ {
+    color: gray;
+    font-size: 12px;
+}
+
+.header_status {
+    color: gray;
+    display: flex;
+    font-size: 12px;
+
+}
+
+
+.cenral_info_user {
+    padding: 15px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+
+.db {
+    display: flex;
+    width: 160px;
+    color: gray;
+    font-size: 12px;
+}
+
+.info_date-birth {
+    display: flex;
+    height: 30px;
+}
+
+.date-birth {
+    color: rgb(44, 62, 163);
+    font-size: 12px;
+}
+
+
+.detailed-info {
+    color: rgb(44, 62, 163);
+    font-size: 12px;
+}
+
+
+.amount {
+    font-weight: 400;
+    margin: 0;
+    color: rgb(44, 62, 163);
+}
+
+
+.object {
+    color: gray;
+    font-size: 12px;
+}
+
+.amount-obj {
+    padding: 15px;
+    width: 71px;
+}
+
+
+.bottom-part-info {
+    display: flex;
+}
+
+
+.info_my-foto {
+    width: 470px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+
+
+.header_info_foto {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.text-my {
+    font-size: 12px;
+}
+
+.text-map {
+    color: gray;
+    font-size: 12px;
+}
+
+.foto {
+    height: 100px;
+    cursor: pointer;
+}
+
+.blok-foto {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info_news {
+    width: 470px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 11px 20px;
+}
+
+.mini-avatar {
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.question {
+    color: gray;
+    font-size: 12px;
+}
+
+.avatar-question {
+    display: flex;
+    align-items: center;
+}
+
+
+.img-tool {
+    height: 17px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.tool {
+    display: flex;
+    align-items: center;
+}
+
+.info_news {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wall {
+    width: 510px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 11px;
+}
+
+
+.inactive {
+    font-size: 12px;
+    color: gray;
+    padding-right:  15px;
+}
+
+.records {
+    display: flex;
+
+}
+
+.mini-search {
+    height: 17px;
+    cursor: pointer;
+}
+
+
+.header-wall {
+    display: flex;
+    justify-content: space-between;
+    width: 472px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+
+
+.info-foto {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.avatar-my {
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.text-info {
+    display: flex;
+    height: 20px;
+
+}
+
+.user-name-info-foto {
+    font-size: 13px;
+    margin: 0;
+    margin-right: 8px;
+    color: rgb(44, 62, 163);
+}
+
+.update-text {
+    color: gray;
+}
+
+.update-date {
+    display: flex;
+    height: 20px;
+    color: grey;
+}
+
+
+.big-foto {
+    padding-left: 20px;
+    height: 500px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.like {
+    margin-left: 20px;
+}
+
+.comment, .repost {
+    margin-left: 10px;
+}
+
+.like, .comment, .repost {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 33px;
+    width: 75px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.img-like, .img-comment, .img-repost {
+    height: 28px;
+    margin-right: 5px;
+    border-radius: 10px;   
+}
+
+
+.amount-like, .amount-comment, .amount-repost  {
+    color: gray;
+}
+
+
+.like-comm-repost {
+    display: flex;
+}
