@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./RightColumn.css";
 import foto from "../../assets/foto.jpg";
 import foto2 from "../../assets/foto2.jpg";
@@ -11,11 +11,38 @@ import smile from "../../assets/smile.png";
 import message from "../../assets/message.png";
 import search from "../../assets/search.png";
 import bigAvatar from "../../assets/bigFoto.jpg";
-import like from '../../assets/like.png';
-import comment from '../../assets/comment.png';
-import repost from '../../assets/repost.png';
+import likeImg from "../../assets/like.png";
+import comment from "../../assets/comment.png";
+import repostImg from "../../assets/repost.png";
+import activeLike from '../../assets/activeLike.png';
+import activeCom from '../../assets/dino.png';
+import activeRepost from '../../assets/activeRepost.jpg'
 
 const RightColumn = () => {
+  const [like, setLike] = useState(false);
+  const handleLikeClick = () => {
+    setLike(!like)
+  }
+  const likesCount = like ? 132 : 131;
+  const likeIcon = like ? activeLike : likeImg
+
+  const [com, setCom] = useState(false);
+  const handleComClick = () => {
+    setCom(!com)
+  }
+  const comCount = com ? 'пук-пук' : 10;
+  const comIcon = com ? activeCom : comment;
+
+
+  const [repost, setRepost] = useState(false);
+  const handleRepostClick = () => {
+    setRepost(!repost)
+  }
+  const repostCount = repost ? '...' : 100;
+  const repostIcon = repost ? activeRepost : repostImg
+
+
+
   return (
     <div className="right">
       <div className="info_user">
@@ -104,17 +131,17 @@ const RightColumn = () => {
         </div>
         <img className="big-foto" src={bigAvatar} alt="avatar" />
         <div className="like-comm-repost">
-          <button className="like">
-          <img className="img-like" src={like} alt="like" />
-          <h4 className="amount-like">131</h4>
+          <button className="like" onClick={handleLikeClick}>
+            <img className="img-like" src={likeIcon} alt="like" />
+            <h4 className="amount-like">{likesCount}</h4>
           </button>
-          <button className="comment">
-          <img className="img-comment" src={comment} alt="comment" />
-          <h4 className="amount-comment">10</h4>
+          <button className="comment" onClick={handleComClick}>
+            <img className="img-comment" src={comIcon} alt="comment" />
+            <h4 className="amount-comment">{comCount}</h4>
           </button>
-          <button className="repost">
-          <img className="img-repost" src={repost} alt="repost" />
-          <h4 className="amount-repost">100</h4>
+          <button className="repost" onClick={handleRepostClick}>
+            <img className="img-repost" src={repostIcon} alt="repost" />
+            <h4 className="amount-repost">{repostCount}</h4>
           </button>
         </div>
       </div>
